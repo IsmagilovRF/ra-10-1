@@ -26,10 +26,10 @@ function ServiceList() {
         <li key={o.id}>
           {o.name} {o.price}
           <button onClick={() => handleEdit(o.id, o.name, o.price)}>
-            <i class="edit icon"></i>
+            <i className ="edit icon"></i>
           </button>
           <button onClick={() => handleRemove(o.id)}>
-            <i class="trash alternate icon"></i>
+            <i className ="trash alternate icon"></i>
           </button>
         </li>
       ))}

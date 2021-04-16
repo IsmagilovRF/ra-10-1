@@ -32,10 +32,10 @@ class ServiceListClassBased extends Component {
             <li key={o.id}>
               {o.name} {o.price}
               <button onClick={() => this.handleEdit(o.id, o.name, o.price)}>
-                <i class="edit icon"></i>
+                <i className ="edit icon"></i>
               </button>
               <button onClick={() => this.handleRemove(o.id)}>
-                <i class="trash alternate icon"></i>
+                <i className ="trash alternate icon"></i>
               </button>
             </li>
           ))}
